@@ -9,7 +9,6 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Portfolio from './components/Portfolio/Portfolio';
 import Resume from './components/Resume/Resume';
-import logo from './logo.svg';
 
 function App() {
 	const [currentPage, handlePageChange] = useState('About');

@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
 	return (
-		<div className='m-5 container'>
+		<div className='About m-5 container'>
 			<h3>About Me</h3>
 			<img
 				alt='Profile'
