@@ -1,0 +1,9 @@
+@use '../../index';
+Form {
+	.btn {
+		background-color: index.$decorative-main;
+	}
+	.form-control {
+		margin-bottom: 2em;
+	}
+}

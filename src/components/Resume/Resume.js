@@ -6,12 +6,12 @@ function Resume() {
 	return (
 		<div className='Container'>
 			<h1>Resume</h1>
-			<div>
-				<a href='https://drive.google.com/uc?export=download&id=1a6SkGaWsElc3-CztRkU42BaFhiNFN2r7ef5j0oDTXb0'>
-					Download
-				</a>
-			</div>
-			<div>
+
+			<a href='https://github.com/Doug-Coder64/react-portfolio-demo/raw/main/Resume.pdf'>
+				Download Resume as PDF
+			</a>
+
+			<div className='mt-5'>
 				<h3>OBJECTIVE</h3>
 				<p>
 					To obtain a position that is both challenging, and rewarding that
