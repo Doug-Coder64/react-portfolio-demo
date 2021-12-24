@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
 
 import React from 'react';
 
@@ -21,6 +21,14 @@ function Footer() {
 				className='m-3'
 			>
 				<FaGithub size={32} />
+			</a>
+			<a
+				href='https://stackoverflow.com/users/16170974/doug-coder64'
+				target='_blank'
+				rel='noopener noreferrer'
+				className='m-3'
+			>
+				<FaStackOverflow size={32} />
 			</a>
 		</footer>
 	);

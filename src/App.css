@@ -15,6 +15,7 @@
 .App {
 	background-color: var(--background-main);
 	height: 100%;
+	color: white;
 }
 
 .App .Header {
@@ -35,13 +36,10 @@
 .App h3 {
 	color: var(--decorative-main);
 }
+.App h2 {
+	color: var(--decorative-main);
+}
 
-.App p {
-	color: white;
-}
-.App span {
-	color: white;
-}
 .App a:hover {
 	color: var(--hover);
 }
@@ -106,6 +104,7 @@
 	padding-left: 1rem;
 	margin-right: auto;
 	margin-left: auto;
+	padding-top: 1rem;
 }
 
 @media (min-width: 576px) {
