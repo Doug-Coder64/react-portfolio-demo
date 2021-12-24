@@ -1,9 +1,16 @@
+import './Resume.scss';
+
 import React from 'react';
 
 function Resume() {
 	return (
 		<div className='Container'>
 			<h1>Resume</h1>
+			<div>
+				<a href='https://drive.google.com/uc?export=download&id=1a6SkGaWsElc3-CztRkU42BaFhiNFN2r7ef5j0oDTXb0'>
+					Download
+				</a>
+			</div>
 			<div>
 				<h3>OBJECTIVE</h3>
 				<p>

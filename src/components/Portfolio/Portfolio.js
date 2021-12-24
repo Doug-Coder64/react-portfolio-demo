@@ -4,7 +4,7 @@ import React from 'react';
 
 function Portfolio() {
 	return (
-		<div className='Portfolio p-5 Container'>
+		<div className='Portfolio p-5'>
 			{ProjectList.map((list, index) => (
 				<Project
 					key={index}

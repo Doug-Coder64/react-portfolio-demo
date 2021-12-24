@@ -1,0 +1,43 @@
+@use 'index';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	font-family: Raleway;
+	font-weight: 600;
+}
+
+.App {
+	background-color: index.$background-main;
+	height: 100%;
+	color: white;
+
+	a {
+		text-decoration: none;
+		color: index.$decorative-main;
+		&:hover {
+			color: index.$hover;
+		}
+	}
+
+	h2 {
+		color: index.$decorative-main;
+	}
+
+	h3 {
+		color: index.$decorative-main;
+	}
+
+	.active {
+		color: index.$hover !important;
+	}
+
+	.Header {
+		background-color: index.$background-secondary;
+	}
+
+	.Footer {
+		height: 100%;
+		justify-content: center;
+		background-color: index.$background-main;
+	}
+}

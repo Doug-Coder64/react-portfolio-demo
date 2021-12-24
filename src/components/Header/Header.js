@@ -6,7 +6,7 @@ function Header(props) {
 	}, [props.currentPage]);
 	const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 	return (
-		<nav className='Header navbar navbar-expand-lg justify-content-between'>
+		<nav className='Header navbar navbar-expand-sm container-fluid'>
 			<h1 className='m-4'>
 				<a href='/'>Douglas Peterson</a>
 			</h1>
