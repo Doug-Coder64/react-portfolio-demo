@@ -21,8 +21,10 @@
 
   ![Screen Shot 2021-12-24 at 10 53 46 AM](https://user-images.githubusercontent.com/85598391/147366016-293bb45f-84d3-4350-989d-cd80dd5781ab.png)
 
+## Color Pallet
 
-  
+  ![color pallet](https://user-images.githubusercontent.com/85598391/147366156-9a0e5e8c-71a3-4f40-b953-367e63e4d6b6.png)
+
 
   ## License 
  This Project is covered under the MIT
